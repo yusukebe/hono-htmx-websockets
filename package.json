@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.tsx --live-reload",
+    "deploy": "wrangler deploy --minify src/index.tsx"
+  },
+  "dependencies": {
+    "hono": "^4.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "wrangler": "^3.32.0"
+  }
+}
